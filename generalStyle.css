@@ -1,0 +1,137 @@
+/*
+CSS COLOR NAMES
+
+https://www.ranoya.com/books/public/css/corescss.php#:~:text=As%20cores%20na%20tecnologia%20web,um%20dado%20do%20tipo%20%2325A9F0%20.
+*/
+
+/*===================================Fontes Gerais===================================/
+Body - 16px
+H1 - 32px
+H2 - 
+H3 - 
+SPAN - 14px
+P - 16px
+A - 16px
+
+*/
+
+/*===================================Breakpoints Gerais===================================/
+
+@media (min-width:320px) { smartphones, portrait iPhone, portrait 480x320 phones (Android) }
+@media (min-width:480px) { smartphones, Android phones, landscape iPhone }
+@media (min-width:600px) { portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
+@media (min-width:801px) { tablet, landscape iPad, lo-res laptops ands desktops }
+@media (min-width:1025px) { big landscape tablets, laptops, and desktops }
+@media (min-width:1281px) { hi-res laptops and desktops }
+
+/*
+
+
+/*===================================Fontes===================================*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Poppins:wght@300&display=swap');
+
+
+/*===================================Estilos Gerais===================================*/
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid blue;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+body, p, h1, h2, ul, li, blockquote {
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	background-size: 100%;
+	color: white;
+	font-size: 14px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+* {box-sizing:border-box;}
+
+li {
+	list-style: none;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.825em;
+}
+
+h3 {
+	font-size: 1.250em;
+}
+
+span {
+	font-size: 0.8em;
+}
+
+input, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.div_title_section {
+	width: 100%;
+	margin-bottom: 20px;
+
+	text-align: center;
+	font-size: 2em;
+}
+
+.div_subtitle_section {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.subtitle_section {
+	width: 600px;
+	margin-bottom: 50px;
+
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.title_text {
+	font-size: 1em;
+}
+
+.orange_text {
+	color: orange;
+}
+
+.orange_button {
+	background-color: orange;
+}

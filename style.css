@@ -1,0 +1,331 @@
+/**/
+
+header {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	padding: 15px 100px;
+	
+	box-shadow: 0px 0px 10px black;
+	background-color: #0e141f;
+	z-index: 3;
+}
+
+.div_logo {
+	width: 200px;
+}
+
+nav {
+	width: 100%;
+}
+
+nav > ul {
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 40px;
+}
+
+nav > ul > a {
+	color: white;
+}
+
+nav > ul > a:hover {
+	color: orange;
+
+	transition: color .3s;
+}
+
+/**/
+
+#home_section {
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+
+	padding: 100px;
+
+	background-image: url("https://img.freepik.com/free-photo/front-view-people-having-meeting-office_23-2148817053.jpg?w=826&t=st=1675351381~exp=1675351981~hmac=a8af776b686b9d53cda4b2c7bafb8ff802c42f0909ca2fa5a5120e018bcffe76");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dark_img {
+	width: 100%;
+	height: 100%;
+
+	margin: 0px 0 -100px -100px;
+	background-color: rgba(0, 0, 0, 0.3);
+
+	position: absolute;
+	z-index: 1;
+}
+
+.div_text_home {
+	width: 550px;
+
+	position: relative;
+	z-index: 2;
+}
+
+.div_text_home > h1 {
+	margin-bottom: 20px;
+}
+
+.div_button {
+	height: 42px;
+}
+
+.schedule_button {
+	width: 250px;
+	height: 40px;
+
+	font-size: 1.2em;
+	color: white;
+
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.schedule_button:hover {
+	border: 2px solid orange;
+	background: none;
+
+	transition: background .3s;
+}
+
+/**/
+
+#about_section {
+	width: 100%;
+
+	padding: 50px 100px;
+	background-color: #0e141f;
+}
+
+.content_about {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.text_about {
+	width: 500px;
+	font-size: 1.125em;
+}
+
+.text_about > p {
+	text-indent: 10px;
+}
+
+.text_about :first-child {
+	margin-bottom: 10px;
+}
+
+iframe {
+	width: 600px;
+	height: 200px;
+	border: 0;
+}
+
+/**/
+
+#services_section {
+	width: 100%;
+	padding: 50px 100px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	color: black;
+}
+
+.div_list_services {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.list_services {
+
+	width: 650px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	column-gap: 30px;
+}
+
+.list_services > div {
+	width: 300px;
+	height: 50px;
+
+	margin-bottom: 30px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #0e141f;
+	border-radius: 5px;
+	color: white;
+}
+
+.list_services > div:hover {
+	border: 2px solid #0e141f;
+	background: none;
+	color: black;
+
+	transition: background .3s;
+}
+
+/**/
+
+#professional_section {
+	width: 100%;
+	padding: 50px 100px;
+
+	background-color: #0e141f;
+}
+
+.div_list_professional {
+	width: 100%;
+
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.div_list_professional > div {
+	width: 265px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item_professional {
+	width: 250px;
+	height: auto;
+
+	background-color: #0e141f;
+	border-radius: 10px;
+	border: 1px solid dimgray;
+	text-align: center;
+}
+
+.item_professional > img {
+	width: 100%;
+	height: auto;
+
+	border-radius: 10px 10px 0 0;
+}
+
+.item_professional > p {
+	margin: 5px 0;
+}
+
+.item_professional:hover {
+	width: 255px;
+	background-color: white;
+	color: black;
+}
+
+/**/
+
+#contact_section {
+	width: 100%;
+	padding: 50px 100px;
+
+	color: black;
+}
+
+.div_form_contato {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.form_contato{
+	width: 600px;
+}
+
+.item_contato {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-bottom: 15px;
+}
+
+.item_contato > label {
+	width: 100%;
+
+	margin-bottom: 5px;
+}
+
+.item_contato > input {
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.item_contato > textarea {
+	width: 100%;
+	padding-left: 10px;
+
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.submit_contato {
+	display: flex;
+	justify-content: center;
+}
+
+.submit_contato > input {
+	width: 300px;
+	height: 40px;
+
+	background-color: #0e141f;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+.submit_contato > input:hover {
+	background: none;
+	border: 2px solid #0e141f;
+	color: black;
+
+	transition: background .3s;
+}
+
+/**/
+
+footer {
+	width: 100%;
+	padding: 15px 0;
+
+	background-color: #0e141f;
+	text-align: center;
+}
+
+footer > p > a {
+	color: white;
+}
+
+footer > p > a:hover {
+	color: orange;
+}
