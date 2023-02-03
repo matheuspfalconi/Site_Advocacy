@@ -60,7 +60,7 @@ nav > ul > a:hover {
 	height: 100%;
 
 	margin: 0px 0 -100px -100px;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.5);
 
 	position: absolute;
 	z-index: 1;
